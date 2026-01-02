@@ -7,20 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header -->
+    <!-- Header / Navigation -->
     <header>
-        <div class="container header-container">
-            <div class="logo">Amal El Gode</div>
-            <nav class="menu">
-                <a href="#education">Education</a>
-                <a href="#experience">Experience</a>
-                <a href="#cv">CV</a>
-            </nav>
-        </div>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a href="#about" class="navbar-logo">Amal El Gode</a>
+            </div>
+
+            <ul class="navbar-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#interests">Interests & Engagements</a></li>
+                <li>
+                    <a href="assets/EL_GODE_CV_2026.pdf" download="Amal_El_Gode_CV.pdf">Resume</a>
+                </li>
+            </ul>
+
+            <div class="navbar-right">
+                <a href="https://www.linkedin.com/in/amal-el-gode/" target="_blank" class="linkedin-icon">
+                    <img src="linkedin-icon.png" alt="LinkedIn">
+                </a>
+            </div>
+        </nav>
     </header>
 
     <!-- About Section -->
-    <section class="about">
+    <section class="about" id="about">
         <div class="container about-container">
             <!-- Left personal photo -->
             <div class="about-image">
@@ -39,4 +52,198 @@
                     Thanks to my adaptability, curiosity, and strong learning ability, I have gained professional experience in diverse teams, including research labs, engineering offices, and consulting firms. My projects span electromagnetism, solid mechanics, civil hydraulics, and computational fluid dynamics (CFD). These experiences have provided me with a comprehensive understanding of numerical modeling and its applications across scientific and industrial contexts.
                 </p>
             </div>
-        <
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-left">2018-2019</div>
+                    <div class="timeline-center"><span class="timeline-dot"></span></div>
+                    <div class="timeline-right">
+                        <div class="timeline-location">Ibnou Lyassmine High School, Casablanca</div>
+                        <div class="timeline-degree">High School Diploma, Mathematics and Science B track, <em>with highest honors</em></div>
+                    </div>
+                </div>
+    
+                <div class="timeline-item">
+                    <div class="timeline-left">2019-2021</div>
+                    <div class="timeline-center"><span class="timeline-dot"></span></div>
+                    <div class="timeline-right">
+                        <div class="timeline-location">Mohammed V High School, Casablanca</div>
+                        <div class="timeline-degree">Preparatory classes for engineering schools, Mathematics and Physics (MPSI-MP*), <em> ranked 37th nationally (Morocco)</em></div>
+                    </div>
+                </div>
+    
+                <div class="timeline-item">
+                    <div class="timeline-left">2021-2024</div>
+                    <div class="timeline-center"><span class="timeline-dot"></span></div>
+                    <div class="timeline-right">
+                        <div class="timeline-location">Enseirb-Matmeca Engineering School, Bordeaux Polytechnic Institute</div>
+                        <div class="timeline-degree">Engineer's degree, Mathematics and Mechanics track, specialization in High Performance Computing</div>
+                    </div>
+                </div>
+    
+                <div class="timeline-item">
+                    <div class="timeline-left">2023-2024</div>
+                    <div class="timeline-center"><span class="timeline-dot"></span></div>
+                    <div class="timeline-right">
+                        <div class="timeline-location">University of Bordeaux</div>
+                        <div class="timeline-degree">Master's degree in Numerical Modeling and Simulation</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+    
+            <h2>Experience</h2>
+    
+            <!-- ===== Current Position ===== -->
+            <div class="experience-item">
+                <div class="experience-text">
+                    <h3>Research Engineer (June 2025 – Present)</h3>
+                    <p>
+                        Currently working as a Research Engineer at the <strong>French National Center for Scientific Research (CNRS)</strong>,
+                        I am part of the <strong>Electrical and Electronic Engineering Laboratory (GeePs)</strong>, where I contribute as
+                        a scientific computing engineer.
+                    </p>
+                    <p>
+                        My work focuses on numerical modeling using dedicated simulation tools such as
+                        COMSOL Multiphysics, primarily applied to <strong>electromagnetism</strong> and <strong>multiphysics</strong> problems,
+                        including <strong>electromagnetic compatibility</strong>, <strong>contactless energy transfer</strong>, and <strong>non-destructive testing</strong>.
+                    </p>
+                    <p>
+                        I am also involved in the development and industrialization of numerical codes for <strong>magnetoelastic
+                            constitutive law models</strong>. In parallel, I provide computational and numerical support to researchers
+                        and PhD students within the laboratory.
+                    </p>
+                </div>
+    
+                <div class="experience-logos">
+                    <img src="cnrs-logo.png" alt="CNRS Logo">
+                    <img src="geeps-logo.png" alt="GeePs Logo">
+                </div>
+            </div>
+    
+            <!-- Transition -->
+            <p class="experience-transition">
+                This work would not have been possible without my diverse internship experiences, which provided me
+                with multiple perspectives on the field of numerical modeling and scientific computing.
+            </p>
+
+            <p class="experience-subtitle">Around numerical models…</p>
+    
+            <!-- ===== Internship ===== -->
+            <div class="experience-item">
+                <div class="experience-text">
+                    <h3>Internship in Numerical Method Verification and Validation (June 2022 – July 2022)</h3>
+                    <p>
+                        During this internship, I contributed to the verification and validation of a numerical method
+                        for fluid flow simulations (CFD), based on the <strong>Moment-of-Fluid</strong> approach,
+                        implemented in the open-source code <strong>Notus</strong>.
+                    </p>
+                    <p>
+                        My work involved convergence tests, consistency analyses, bibliographic comparisons, and the
+                        development of detailed technical documentation to ensure the accuracy, robustness, and
+                        reproducibility of the numerical method.
+                    </p>
+                </div>
+    
+                <div class="experience-logos">
+                    <img src="i2m-logo.png" alt="Laboratory Logo">
+                </div>
+            </div>
+
+            <!-- ===== Internship: Marine Hydraulics ===== -->
+            <div class="experience-item">
+                <div class="experience-text">
+                    <p class="experience-subtitle">About numerical simulations…</p>
+
+                    <h3>Internship in Numerical Modeling in Marine Hydraulics (June 2023 – August 2023)</h3>
+                    <p>
+                        During this internship at the <strong>Tangier Med Engineering</strong> design office, I contributed to the
+                        numerical modeling of coastal sediment transport for the <strong>Nador West Med</strong> port project.
+                    </p>
+                    <p>
+                        My work involved geospatial and satellite data analysis, frequency processing for pre-processing stages,
+                        and the validation of numerical simulations performed using the
+                        <strong>MIKE 21</strong> hydraulic modeling software.
+                    </p>
+                </div>
+
+                <div class="experience-logos">
+                    <img src="Tanger-Med-Engineering.png" alt="Tangier Med Logo">
+                </div>
+            </div>
+
+            <!-- ===== Internship: Software Development & FEM ===== -->
+            <div class="experience-item">
+                <div class="experience-text">
+                    <p class="experience-subtitle">About scientific software development…</p>
+
+                    <h3>Software Development Internship for FEM Analysis Post-Processing (March 2024 – September 2024)</h3>
+                    <p>
+                        As part of the R&amp;D team at <strong>Capgemini Engineering</strong>, I contributed to the development
+                        of a post-processing software tool for finite element method (FEM) vibration analysis and real-time
+                        signal acquisition systems.
+                    </p>
+                    <p>
+                        I was also involved in a <strong>Digital Twin</strong> project focused on anomaly detection using
+                        <strong>machine learning</strong>, bridging numerical modeling, data analysis, and industrial applications.
+                    </p>
+                </div>
+
+                <div class="experience-logos">
+                    <img src="Capgemini_Engineering.svg.png" alt="Capgemini Engineering Logo">
+                </div>
+            </div>
+
+        </div>
+    </section> 
+
+    <!-- Interests & Engagements Section -->
+    <section class="interests" id="interests">
+        <div class="container interests-container">
+
+            <!-- Texte à gauche -->
+            <div class="interests-text">
+                <h2>Beyond Scientific Computing and Engineering</h2>
+
+                <p>
+                    I have a strong interest in french literature and philosophy. I am also committed to volunteering and deeply
+                    value social justice and equal opportunities. Between 2018 and 2020, I volunteered as an administrative assistant
+                    at <em>La Perle Blanche</em>, an association supporting people with mental disabilities. I am currently involved
+                    with <em>Tremplin Jeunesse</em>, an organization dedicated to mentoring and supporting young people in their
+                    academic and professional paths.
+                </p>
+
+                <p>
+                    Outside of my professional and volunteer activities, I enjoy weight training and running, which play an important 
+                    role in mantaining balance and discipline.
+                </p>
+            </div>
+
+            <!-- Photo à droite -->
+            <div class="interests-photo">
+                <img src="amal-photo.jpg" alt="Amal El Gode">
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Amal El Gode</p>
+        </div>
+    </footer>
+</body>
+</html>
